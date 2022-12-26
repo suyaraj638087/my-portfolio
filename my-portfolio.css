@@ -514,6 +514,47 @@ transform:rotate(360deg);
 		padding:10px;
 }
 }
+/*portfolio section*/
+.portfolio{
+	padding-top:30px;
+}
+.portfolio .container {
+	width:80%;
+	margin:0 auto;
+}
+.portfolio .container h1{
+	text-align:center;
+			color:#ff0000d6;
+	    text-shadow: 5px 10px 10px #00000061;
+		    font-family: cursive;
+			font-size:40px;
+}
+.portfolio .col{
+	width:50%;
+}
+.portfolio .web{
+	padding-top:20px;
+}
+.portfolio .web img{
+	width:100%;
+}
+.button{
+	padding-top:2rem;
+	padding-left:12rem;
+}
+.button a{
+	padding:10px;
+	background-color:#ff000038;
+	border-radius:100px;
+	text-decoration:none;
+	color:black;
+	font-size:1.5rem;
+}
+.button a:hover{
+	color:#ffffb3;
+	transition:1s;
+	background-color:red;
+}
 /*contact section*/
 .contact{
 	margin-top:30px;
