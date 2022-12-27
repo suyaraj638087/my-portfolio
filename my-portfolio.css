@@ -542,6 +542,10 @@ transform:rotate(360deg);
 		    font-family: cursive;
 			font-size:40px;
 }
+.portfolio .row{
+	display:flex;
+	gap:5%;
+}
 .portfolio .col{
 	width:50%;
 }
@@ -631,18 +635,19 @@ transform:rotate(360deg);
 .contact .card:hover{
 		box-shadow:0 0 10px red;
 }
-/* for firefox*/
+/*
+/* for firefox
  progress::-moz-progress-bar{
 	background:green;
 }
-/* for chrome or safari*/
+/* for chrome or safari
 progress::-webkit-progress-value{
 	background:green;
-}
-/* for IE10*/
+}*/
+/* for IE10
 progress {
 	background:green;
-}
+}*/
 
 @media (min-width:320px){
 		.contact .container{
