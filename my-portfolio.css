@@ -9,7 +9,7 @@
 .my{	
 	background:linear-gradient(#cacad28f,#9e9e9e1f),url(resume/fun.jpeg);
 	background-attachment:fixed;
-	background-position:top;
+	background-position:center;
 	background-size:cover;
 }
 
@@ -23,17 +23,17 @@
 
 }
 .my .left{
-	padding-top:40px;
+padding-bottom:50px;
 }
 .my .col1{
-	width:70%;
+	width:50%;
 	text-align:inherit
 }
 .my .col2{
-	width:30%;
+	width:50%;
 }
 .my .my-pic img{
-	width:80%;
+	width:100%;
 	border-left:10px solid #ff0000d6;
 	border-radius:40% 10% 20% 10%;
 	padding-top:50px;
@@ -44,8 +44,9 @@
 	
 .my .col1 h1{
 	color:white;
-	font-size:4rem;
-	    padding-top:5rem;
+	font-size:3rem;
+	    padding-top:4rem;
+		
 	
 }
 .my .col1 h2{
@@ -70,79 +71,8 @@
 .my .myicon i:hover{
 	color:#ff0000d6;
 }
-@media (min-width:320px){
-		.my .container{
-	width:90%;
-	margin:0 auto;
-}
-.row{
-	width:100%;
-}
-.my .col1{
-	width:100%;
-	text-align:inherit;
-	order:1;
-}
-.my .col2{
-	width:100%;
-	order:2;
-}
-.my .pic{
-	width:100%;
-}
-}
-@media (min-width:720px){
-		.my .container{
-	width:90%;
-	margin:0 auto;
-}
-.my .row{
-	display:flex;
-	flex-wrap:nowrap;
-	gap:5%;
-}
 
-}
-.my .left{
-	padding-top:40px;
-}
-.my .col1{
-	width:50%;
-	text-align:inherit
-}
-.my .col2{
-	width:50%;
-}
-.my .pic{
-	width:50%;
-	
-}
-}
-@media (min-width:1020px){
-	.my .container{
-	width:90%;
-	margin:0 auto;
-}
-.my .row{
-	display:flex;
-	flex-wrap:nowrap;
-	gap:5%;
-}
-.my .left{
-	padding-top:40px;
-}
-.my .col1{
-	width:50%;
-	text-align:inherit
-}
-.my .col2{
-	width:50%;
-}
-.my .pic{
-	width:50%;
-	
-}
-}
+
 /*about section*/
 .about{
 	background-color:#ffe6e6;
@@ -152,6 +82,7 @@
 	width:80%;
 	margin:0 auto;
 	text-align:center;
+	padding-left:20px;
 }
 .about .row{
 	display:flex;
@@ -247,82 +178,9 @@
 	color:#000000;
 	font-size:35px;
 }
-@media (min-width:320px){
-		.about .container{
-	width:80%;
-	margin:0 auto;
-	text-align:center;
-}
-.about .row{
-	display:flex;
-	gap:5%;
-	
-}
-.about .bio{
-	display:flex;
-	flex-wrap:wrap;
-}
 
-.npc{
-	padding-top:20px;
-	width:100%;
-}
-.dde{
-	padding-top:20px;
-	width:100%;
-}
 
-}
-@media (min-width:720px){
-		.about .container{
-	width:80%;
-	margin:0 auto;
-	text-align:center;
-}
-.about .row{
-	display:flex;
-	flex-wrap:nowrap;
-	gap:5%;
-	
-}
-.about .bio{
-	display:flex;
-}
 
-.npc{
-	padding-top:20px;
-	width:50%;
-}
-.dde{
-	padding-top:20px;
-	width:50%;
-}
-}
-@media (min-width:1020px){
-	.about .container{
-	width:80%;
-	margin:0 auto;
-	text-align:center;
-}
-.about .row{
-	display:flex;
-	flex-wrap:nowrap;
-	gap:5%;
-	
-}
-.about .bio{
-	display:flex;
-}
-
-.npc{
-	padding-top:20px;
-	width:50%;
-}
-.dde{
-	padding-top:20px;
-	width:50%;
-}
-}
 /*skils section*/
 .skils{
 	
@@ -339,6 +197,7 @@
 }
 .skils .col{
 	width:25%;
+	text-align:center;
 
 }
 .skils .skils-image{
@@ -369,63 +228,44 @@ transform:rotate(360deg);
 }
 .skils .progres progress{
 	width:100%;
-	padding:20px;
+	height:20px;
 }
 .progres{
 	padding-top:20px;
 }
+ /* For Chrome or Safari */
+        progress::-webkit-progress-bar {
+            background-color: #eeeeee;
+        }
 
+        progress::-webkit-progress-value {
+            background-color: red !important;
+        }
+  
+  
+        /* For Firefox */
+        progress {
+            background-color: #eee;
+        }
+  
+        progress::-moz-progress-bar {
+            background-color: #039603 !important;
+        }
+  
+        /* For IE10 */
+        progress {
+            background-color: #eee;
+        }
+  
+        progress {
+            background-color: #039603;
+        }
  label{
 	color:#ff0000d6;
 	    text-shadow: 5px 5px 5px #00000061;
 }
-@media (min-width:320px){
-	.skils .container{
-	width:80%;
-	margin:0 auto;
-	
-}
-.skils .row{
-	display:flex;
-	flex-wrap:wrap;
-	gap:5%;
-}
-.skils .col{
-	width:100%;
 
-}
-}
-@media (min-width:720px){
-	.skils .container{
-	width:80%;
-	margin:0 auto;
-	
-}
-.skils .row{
-	display:flex;
-	flex-wrap:nowrap;
-	gap:5%;
-}
-.skils .col{
-	width:50%;
-}
-}
-@media (min-width:1020px){
-	.skils .container{
-	width:80%;
-	margin:0 auto;
-	
-}
-.skils .row{
-	display:flex;
-	flex-wrap:nowrap;
-	gap:5%;
-}
-.skils .col{
-	width:25%;
 
-}
-}
 /*service section*/
 .service{
 	background-color:#ffe6e6;
@@ -483,50 +323,9 @@ transform:rotate(360deg);
 	    line-height: 1.5rem;
 		color:grey;
 }
-@media (min-width:320px){
-	.service .container{
-	width:80%;
-	margin:0 auto;
-}
-.service .row{
-	display:flex;
-	flex-wrap:wrap;
 
-}
-.service .col{
-		width:100%;
-		padding:10px;
-}
-}
-@media (min-width:720px){
-	.service .container{
-	width:80%;
-	margin:0 auto;
-}
-.service .row{
-	display:flex;
-	flex-wrap:wrap;
 
-}
-.service .col{
-		width:50%;
-		padding:10px;
-}
-}
-@media (min-width:1020px){
-	.service .container{
-	width:80%;
-	margin:0 auto;
-}
-.service .row{
-	display:flex;
 
-}
-.service .col{
-		width:33.3%;
-		padding:10px;
-}
-}
 /*portfolio section*/
 .portfolio{
 	padding-top:30px;
@@ -548,6 +347,7 @@ transform:rotate(360deg);
 }
 .portfolio .col{
 	width:50%;
+	
 }
 .portfolio .web{
 	padding-top:20px;
@@ -556,8 +356,10 @@ transform:rotate(360deg);
 	width:100%;
 }
 .button{
-	padding-top:2rem;
-	padding-left:12rem;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ padding-top:10px;
 }
 .button a{
 	padding:10px;
@@ -572,6 +374,9 @@ transform:rotate(360deg);
 	transition:1s;
 	background-color:red;
 }
+
+
+
 /*contact section*/
 .contact{
 	background-color:#ffe6e6;
@@ -635,68 +440,10 @@ transform:rotate(360deg);
 .contact .card:hover{
 		box-shadow:0 0 10px red;
 }
-/*
-/* for firefox
- progress::-moz-progress-bar{
-	background:green;
-}
-/* for chrome or safari
-progress::-webkit-progress-value{
-	background:green;
-}*/
-/* for IE10
-progress {
-	background:green;
-}*/
 
-@media (min-width:320px){
-		.contact .container{
-	width:80%;
-	margin:0 auto;
-}
-.contact .row{
-	display:flex;
-	
-	
-}
-.contact .col{
-	width:100%;
-	padding:20px;
-	
-}
-}
-@media (min-width:720px){
-		.contact .container{
-	width:80%;
-	margin:0 auto;
-}
-.contact .row{
-	display:flex;
-	flex-wrap:wrap;
-	
-}
-.contact .col{
-	width:50%;
-	padding:20px;
-	
-}
-}
-@media (min-width:1020px){
-	.contact .container{
-	width:80%;
-	margin:0 auto;
-}
-.contact .row{
-	display:flex;
-	flex-wrap:wrap;
-	
-}
-.contact .col{
-	width:50%;
-	padding:20px;
-	
-}
-}
+
+
+
 .footer{
 		background-color:#ffe6e6;
 	margin-top:50px;
@@ -714,4 +461,338 @@ progress {
 .footer span{
 	color:red;
 	 font-family: cursive;
+}
+
+
+
+@media (min-width:320px){
+	/*my*/
+		.my .container{
+	width:100%;
+	
+}
+.my .row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.my .col1{
+	width:100%;
+	order:2;
+
+}
+.my .col2{
+	width:100%;
+	order:1;
+}
+/*about*/
+
+	.about .container{
+	width:100%;
+	
+	text-align:center;
+}
+.about .row{
+	display:flex;
+	flex-wrap:wrap;
+	gap:5%;
+	text-align:center;
+}
+.about .col1{
+	width:100%;
+}
+.about .col2{
+	width:100%;
+}
+.about .bio{
+	display:flex;
+	flex-wrap:wrap;
+}
+.about .npc{
+	width:100%;
+	
+}
+.about .dde{
+	width:100%;
+}
+/*skils*/
+	.skils .container{
+	width:80%;
+	margin:0 auto;
+	
+}
+.skils .row{
+	display:flex;
+	flex-wrap:wrap;
+	gap:5%;
+}
+.skils .col{
+	width:100%;
+
+}
+/*service*/
+	.service .container{
+	width:80%;
+	margin:0 auto;
+}
+.service .row{
+	display:flex;
+	flex-wrap:wrap;
+
+}
+.service .col{
+		width:100%;
+		padding:10px;
+}
+/*portfolio*/
+	.portfolio .container {
+	width:100%;
+	
+}
+.portfolio .row{
+	display:flex;
+	flex-wrap:wrap;
+	gap:5%;
+}
+.portfolio .col{
+	width:100%;
+}
+/*contact*/
+		.contact .container{
+	width:80%;
+	margin:0 auto;
+}
+.contact .row{
+	display:flex;
+	
+	
+}
+.contact .col{
+	width:100%;
+	padding:20px;
+	
+}
+}
+
+
+@media (min-width:720px){
+	/*my section*/
+		.my .container{
+	width:90%;
+	margin:0 auto;
+}
+.my .row{
+	display:flex;
+	flex-wrap:nowrap;
+	gap:5%;
+}
+.my .left{
+	padding-top:40px;
+}
+.my .col1{
+	width:50%;
+	text-align:inherit
+}
+.my .col2{
+	width:50%;
+}
+/*about section*/
+		.about .container{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+.about .row{
+	display:flex;
+	flex-wrap:nowrap;
+	gap:5%;
+	
+}
+.about .bio{
+	display:flex;
+	flex-wrap:wrap;
+}
+.about .col1{
+	width:100%;
+}
+.about .col2{
+	width:100%;
+}
+.npc{
+	padding-top:20px;
+	width:50%;
+}
+.dde{
+	padding-top:20px;
+	width:50%;
+}
+/*skils*/
+	.skils .container{
+	width:80%;
+	margin:0 auto;
+	
+}
+.skils .row{
+	display:flex;
+	flex-wrap:nowrap;
+	gap:5%;
+}
+.skils .col{
+	width:50%;
+}
+/*service*/
+	.service .container{
+	width:80%;
+	margin:0 auto;
+}
+.service .row{
+	display:flex;
+	flex-wrap:wrap;
+
+}
+.service .col{
+		width:50%;
+		padding:10px;
+}
+/*portfolio*/
+	.portfolio .container {
+	width:80%;
+	margin:0 auto;
+}
+.portfolio .row{
+	display:flex;
+	flex-wrap:wrap;
+	gap:5%;
+}
+.portfolio .col{
+	width:100%;
+}
+/*contact*/
+		.contact .container{
+	width:80%;
+	margin:0 auto;
+}
+.contact .row{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.contact .col{
+	width:50%;
+	padding:20px;
+	
+}
+}
+
+@media (min-width:1020px){
+	/*my*/
+	.my .container{
+	width:90%;
+	margin:0 auto;
+}
+.my .row{
+	display:flex;
+	flex-wrap:nowrap;
+	gap:5%;
+}
+
+.my .col1{
+	width:70%;
+	text-align:inherit;
+	order:1
+}
+.my .col2{
+	width:30%;
+	order:1;
+}
+/*about section*/
+	.about .container{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+.about .row{
+	display:flex;
+	flex-wrap:nowrap;
+	gap:5%;
+	
+}
+.about .bio{
+	display:flex;
+	flex-wrap:nowrap;
+}
+.about .col1{
+	width:30%;
+}
+.about .col2{
+	width:70%;
+}
+.npc{
+	padding-top:20px;
+	width:50%;
+}
+.dde{
+	padding-top:20px;
+	width:50%;
+}
+/*skils*/
+
+	.skils .container{
+	width:80%;
+	margin:0 auto;
+	
+}
+.skils .row{
+	display:flex;
+	flex-wrap:nowrap;
+	gap:5%;
+}
+.skils .col{
+	width:25%;
+
+}
+/*service*/
+
+	.service .container{
+	width:80%;
+	margin:0 auto;
+}
+.service .row{
+	display:flex;
+
+}
+.service .col{
+		width:33.3%;
+		padding:10px;
+}
+/*portfolio*/
+	.portfolio{
+	padding-top:30px;
+}
+	.portfolio .container {
+	width:80%;
+	margin:0 auto;
+}
+.portfolio .row{
+	display:flex;
+	flex-wrap:nowrap;
+	gap:5%;
+}
+.portfolio .col{
+	width:50%;
+}
+/*contact*/
+	.contact .container{
+	width:80%;
+	margin:0 auto;
+}
+.contact .row{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+.contact .col{
+	width:50%;
+	padding:20px;
+	
+}
 }
