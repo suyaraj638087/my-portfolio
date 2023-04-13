@@ -264,7 +264,7 @@ transform:rotate(360deg);
         }
  label{
 	color:#ff0000d6;
-	    text-shadow: 5px 5px 5px #00000061;
+	    text-shadow: 5px 1px -2px #00000061;
 }
 
 
